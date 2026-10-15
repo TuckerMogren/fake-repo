@@ -1,22 +1,45 @@
 {
   "schemaVersion": "1.0",
-  "modelVersion": 1,
+  "modelVersion": 3,
   "metadata": {
     "title": "QA GitHub e0337ff",
     "author": "Muse Testing",
     "productIntent": "",
     "createdAt": "2026-10-15T01:19:35.4365582+00:00",
-    "updatedAt": "2026-10-15T01:19:35.4365582+00:00",
+    "updatedAt": "2026-10-15T01:19:52.4130098+00:00",
     "defaultView": "system"
   },
   "actors": [],
-  "systems": [],
+  "systems": [
+    {
+      "id": "1a1a9d35-f3f5-456c-9d24-90891ff25510",
+      "type": "system",
+      "name": "QA Write Test System",
+      "description": "",
+      "tags": [],
+      "properties": {},
+      "references": []
+    }
+  ],
   "containers": [],
   "components": [],
   "externalDependencies": [],
   "relationships": [],
   "flows": [],
-  "views": {},
+  "views": {
+    "1a1a9d35-f3f5-456c-9d24-90891ff25510": {
+      "position": {
+        "x": 160,
+        "y": 120
+      },
+      "scopedPositions": {
+        "system:global": {
+          "x": 160,
+          "y": 120
+        }
+      }
+    }
+  },
   "references": [],
   "tags": []
 }
